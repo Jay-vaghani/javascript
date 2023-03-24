@@ -14,102 +14,141 @@
 // (7). Arr
 // (8). Object
 
+// ******************************** JavaScript if else ********************************
 
-// ******************************** JavaScript String ********************************
+// var v1 = 5;
+// var v2 = 7;
 
-// var v1 = "abc";
+// if (v1 == v2) {
+//   console.log("ok");
+// } else {
+//   console.log("not ok");
+// }
 
-// var v2 = "Hello goodMorning 'sir' ";
-// var v2 = 'Hello goodMorning "sir" ';
-// var v2 = 'Hello good Morning ' + v1 + " sir";
+// var v3 = 10;
+// var v4 = 20;
 
-// var v2 = `Hello goodMorning "sir" 'sir' ${v1} `;
+// if (v3 != v4) {
+//   console.log("ok");
+// } else {
+//   console.log("not ok");
+// }
 
-// console.log(v2);
+// var v5 = "abc";
+// var v6 = "abcd";
 
-// var v3 = "abc"
-// var v4 = "def"
-// var v5 = v4.concat(v3) // v4 + v3
+// if (v5 == v6) {
+//   console.log("ok");
+// } else {
+//   console.log("not ok");
+// }
 
-// console.log(v5);
+// var v7 = 10;
+// var v8 = "10";
 
-// **************** JavaScript String Methods ****************
+// if (v7 == v8) {
+//   console.log("ok");
+// } else {
+//   console.log("not ok");
+// }
 
-// var v6 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// var v9 = 10;
+// var v10 = "10";
 
-// console.log(v6.length);
+// if (v9 !== v10) {
+//   console.log("ok");
+// } else {
+//   console.log("not ok");
+// }
 
-// var v7 = "Please visit Microsoft Microsoft"
+// var v11 = 10;
+// var v12 = 20;
 
-// console.log(v7.replace("Microsoft", "W3Schools"));
+// if (v11 < v12) {
+//   console.log("ok");
+// } else {
+//   console.log("not ok");
+// }
 
-// var v8 = "Please visit Microsoft Microsoft"
+// var v11 = 10;
+// var v12 = 10;
 
-// console.log(v8.replaceAll("Microsoft", "W3Schools"));
+// if (v11 <= v12) {
+//   console.log("ok");
+// } else {
+//   console.log("not ok");
+// }
 
-// var v9 = "Please visit Microsoft"
+// var v13 = 10;
+// var v14 = 5000;
 
-// console.log(v9.replace(/MICROSOFT/i, "W3Schools"));
+// if (v13 == 10) {
+//   if (v14 === 500) {
+//     console.log("ok");
+//   } else {
+//     console.log("not ok");
+//   }
+// } else {
+//   console.log("not ok");
+// }
 
-// var V10 = "abc"
+// var v15 = 10;
+// var v16 = 5000;
 
-// console.log(v10); // Will Give Error
+// if (v15 == 10) {
+//   if (v16 !== 500) {
+//     console.log("ok");
+//   } else {
+//     console.log("not ok");
+//   }
+// } else {
+//   console.log("not ok");
+// }
 
-// var v11 = "Please visit Microsoft"
+// var age = 18;
 
-// console.log(v11.search("Microsoft"));
+// if (age < 16) {
+//   console.log("Drink Milk");
+// }
 
-// console.log(v11.charAt(13));
+// if (age >= 16) {
+//   console.log("Ride Activa");
+// }
 
-// var v12 = "abcABC"
+// if (age >= 18) {
+//   console.log("Ride Everything");
+// }
 
-// console.log(v12.toLocaleUpperCase());
+// var v17 = 20
+// var v18 = 30
+// var v19 = 40
 
-// var v13 = "ABCabc"
+// if (v17 === 20 || v18 === 31 || v19 === 41) {
+//     console.log("ok");
+// } else{
+//     console.log("not ok");
+// }
 
-// console.log(v13.toLocaleLowerCase());
+// var v20 = 20;
+// var v21 = 30;
+// var v22 = 40;
 
-// var v14 = "Please locate where 'locate' occurs!"
+// if (v20 === 20 && v21 === 30 && v22 === 41) {
+//   console.log("ok");
+// } else {
+//   console.log("not ok");
+// }
 
-// console.log(v14.indexOf("where"));
+// var age2 = 18;
 
-// var v15 = "Please locate where 'locate' occurs! where"
+// if (age2 < 16) {
+//   console.log("Drink Milk");
+// }
 
-// console.log(v15.lastIndexOf("where"));
+//  else if (age2 >= 16 && age2 <= 17) {
+//   console.log("Ride Activa");
+// }
 
-// var v16 =  "The rain in SPAIN stays mainly in the plain"
-
-// console.log(v16.match(/ain/gi));
-
-
-// var v17 = "I love cats. Cats are very easy to love. Cats are very popular."
-
-// console.log(v17.includes("very"));
-
-// var v18 = "I love cats. Cats are very easy to love. Cats are very popular."
-
-// console.log(v18.startsWith("I"));
-
-
-// var v19 = "I love cats. Cats are very easy to love. Cats are very popular."
-
-// console.log(v19.endsWith("popular"));
-
-// var v20 = "    ABC     "
-
-// var v21 = v20.trim()
-
-// console.log(v21);
-
-// var v22 = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
-
-// var v23 = v22.split(",")
-
-// console.log(v23);
-
-
-
-
-
-
-
+// else if (age2 >= 18) {
+//   console.log("Ride Everything");
+// }
