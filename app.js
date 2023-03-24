@@ -80,3 +80,36 @@
 // var v16 =  "The rain in SPAIN stays mainly in the plain"
 
 // console.log(v16.match(/ain/gi));
+
+
+// var v17 = "I love cats. Cats are very easy to love. Cats are very popular."
+
+// console.log(v17.includes("very"));
+
+// var v18 = "I love cats. Cats are very easy to love. Cats are very popular."
+
+// console.log(v18.startsWith("I"));
+
+
+// var v19 = "I love cats. Cats are very easy to love. Cats are very popular."
+
+// console.log(v19.endsWith("popular"));
+
+// var v20 = "    ABC     "
+
+// var v21 = v20.trim()
+
+// console.log(v21);
+
+// var v22 = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
+
+// var v23 = v22.split(",")
+
+// console.log(v23);
+
+
+
+
+
+
+
