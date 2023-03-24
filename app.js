@@ -14,57 +14,69 @@
 // (7). Arr
 // (8). Object
 
-// ******************************** JavaScript Number ********************************
-// var a = 7;
-// var b = 5;
 
-// var c = a + b;
+// ******************************** JavaScript String ********************************
 
-// var d = a - b;
-// var e = a / b;
+// var v1 = "abc";
 
-// var f = 1;
-// f++;
-// f++;
-// f++;
-// f++;
-// f--;
-// f--;
-// f--;
-// f--;
+// var v2 = "Hello goodMorning 'sir' ";
+// var v2 = 'Hello goodMorning "sir" ';
+// var v2 = 'Hello good Morning ' + v1 + " sir";
 
-// var g = 10;
+// var v2 = `Hello goodMorning "sir" 'sir' ${v1} `;
 
-// g += 10; // g = g + 10
-// g -= 10; // g = g + 10
-// g *= 10; // g = g + 10
-// g /= 10; // g = g + 10
+// console.log(v2);
 
-// var h = 2 ** 3; // h = 2 * 2 * 2;
+// var v3 = "abc"
+// var v4 = "def"
+// var v5 = v4.concat(v3) // v4 + v3
 
-// console.log(c);
-// console.log(d);
-// console.log(e);
-// console.log(f);
-// console.log(g);
-// console.log(h);
+// console.log(v5);
 
-// var i = Math.floor(3.9)
-// var i = Math.ceil(3.1)
-// var i = Math.round(3.4)
+// **************** JavaScript String Methods ****************
 
-// console.log(i);
+// var v6 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-// var j = Math.random()
+// console.log(v6.length);
 
-// var player1 = Math.floor(Math.random() * 6) + 1
-// var player2 = Math.floor(Math.random() * 6) + 1
+// var v7 = "Please visit Microsoft Microsoft"
 
-// console.log(player1);
-// console.log(player2);
+// console.log(v7.replace("Microsoft", "W3Schools"));
 
-// var k = Number("10");
+// var v8 = "Please visit Microsoft Microsoft"
 
-// var l = 10 + k;
+// console.log(v8.replaceAll("Microsoft", "W3Schools"));
 
-// console.log(l);
+// var v9 = "Please visit Microsoft"
+
+// console.log(v9.replace(/MICROSOFT/i, "W3Schools"));
+
+// var V10 = "abc"
+
+// console.log(v10); // Will Give Error
+
+// var v11 = "Please visit Microsoft"
+
+// console.log(v11.search("Microsoft"));
+
+// console.log(v11.charAt(13));
+
+// var v12 = "abcABC"
+
+// console.log(v12.toLocaleUpperCase());
+
+// var v13 = "ABCabc"
+
+// console.log(v13.toLocaleLowerCase());
+
+// var v14 = "Please locate where 'locate' occurs!"
+
+// console.log(v14.indexOf("where"));
+
+// var v15 = "Please locate where 'locate' occurs! where"
+
+// console.log(v15.lastIndexOf("where"));
+
+// var v16 =  "The rain in SPAIN stays mainly in the plain"
+
+// console.log(v16.match(/ain/gi));
