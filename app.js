@@ -1,18 +1,36 @@
-// var v1 = 5;
-// var v2 = 5;
-// var v3 = 10;
-// var v4 = 20;
+// var v1 = 5
+// let v2 = 6
+// const v3 = 7
 
-// var condition = v1 === v2 ? console.log("ok") : console.log("not ok");
+// var v1 = 10
 
-// var condition = v1 === v2 ? v3 !== v4 ? console.log("inside ok") : console.log("inside not ok") : console.log("not ok")
+// v2 = 20
+
+// v3 = 30
+
+// console.log(v1);
+// console.log(v2);
+// console.log(v3);
+
+// ************************* JavaScript Scope *************************
+
+// var a = 20;
+// let b = 30;
+// const c = 40;
+
+{
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+
+  var v1 = 20;
+  let v2 = 30;
+  const v3 = 40;
+  v4 = 50
+}
 
 
-// ************************ Javascript if else Falsy Value ************************
-
-// (1) null
-// (2) undefined
-// (3) false
-// (4) NaN
-// (5) 0
-// (6) ""
+console.log(v1);
+// console.log(v2);
+// console.log(v3);
+console.log(v4);
