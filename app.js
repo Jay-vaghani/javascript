@@ -1,36 +1,31 @@
-// var v1 = 5
-// let v2 = 6
-// const v3 = 7
+// ************************************* JavaScript Switch Statement *************************************
 
-// var v1 = 10
+let day = "tus";
 
-// v2 = 20
+switch (day) {
+  case "mon":
+    console.log("mon");
+    break;
+  case "tus":
+    console.log("tus");
+    break;
+  case "wen":
+    console.log("wen");
+    break;
+  case "thu":
+    console.log("thu");
+    break;
+  case "fri":
+    console.log("fri");
+    break;
+  case "sat":
+    console.log("sat");
+    break;
+  case "sun":
+    console.log("sun");
+    break;
 
-// v3 = 30
-
-// console.log(v1);
-// console.log(v2);
-// console.log(v3);
-
-// ************************* JavaScript Scope *************************
-
-// var a = 20;
-// let b = 30;
-// const c = 40;
-
-{
-//   console.log(a);
-//   console.log(b);
-//   console.log(c);
-
-  var v1 = 20;
-  let v2 = 30;
-  const v3 = 40;
-  v4 = 50
+  default:
+    console.log("not ok");
+    break;
 }
-
-
-console.log(v1);
-// console.log(v2);
-// console.log(v3);
-console.log(v4);
