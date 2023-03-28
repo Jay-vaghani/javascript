@@ -1,134 +1,73 @@
-// ************************************ JavaScript Function ************************************
+// ************************************ JavaScript Array ************************************
 
-// let fun = function () {
-//   let v1 = 5;
-//   let v2 = 10;
+// let v1 = "def";
 
-//   let v3 = v1 + v2;
+// let arr1 = [1, 2, 3, "abc", v1, true, false];
 
-//   console.log(v3);
-// };
+// console.log(arr1.length);
+// console.log(arr1[0]);
+// console.log(arr1[1]);
+// console.log(arr1[2]);
+// console.log(arr1[3]);
+// console.log(arr1[4]);
+// console.log(arr1[5]);
+// console.log(arr1[6]);
 
-// fun();
+// let v2 = arr1[4];
 
-// let fun2 = function(v1 = 10, v2 = 20){
-//     console.log(v1);
-//     console.log(v2);
-// }
+// console.log(v2);
 
-// fun2()
+// let arr2 = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-// let fun3 = function(v1, v2 ){
-//     console.log(v1);
-//     console.log(v2);
-// }
+// console.log(arr2);
 
-// fun3(10, 20)
+// let arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// let fun4 = function(v1 = 30, v2 = 40 ){
-//     console.log(v1);
-//     console.log(v2);
-// }
+// console.log(arr3[arr3.length - 1]);
 
-// fun4(10, 20)
+let arr4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// let fun5 = function(v1 = 30, v2 = 40 ){
-//     console.log(v1);
-//     console.log(v2);
-// }
+let str1 = arr4.toString();
 
-// fun5(10)
+// console.log(str1);
 
-// function fun6 (){
-//     console.log("ok");
-// }
+let str2 = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z";
 
-// fun6()
+let arr5 = str2.split(",");
 
-// fun7();
+// console.log(arr5);
 
-// function fun7() {
-//   console.log("ok");
-// }
+let str3 = arr5.join();
+// console.log(str3);
 
-// fun8()
+let str4 = arr5.join("|");
+// console.log(str4);
 
-// let fun8 = function () {
-//   console.log("ok");
-// };
+let str5 = arr5.join(" ");
 
-// ****************** JavaScript Arrow Function ******************
+// console.log(str5);
 
-// let fun9 = () => {
-//     console.log("ok");
-// }
+let arr6 =  ["Banana", "Orange", "Apple", "Mango"];
 
-// fun9()
+let res1 = arr6.pop()
 
-// let fun10 = (v1, v2) => {
-//     console.log(v1);
-//     console.log(v2);
-// }
+// console.log(res1);
+// console.log(arr6);
 
-// fun10(20, 30)
+let res2 = arr6.push("chiku")
 
-// fun11()
+// console.log(res2);
+// console.log(arr6);
 
-// let fun11 = () => {
-//     console.log("ok");
-// }
+let res3 = arr6.shift()
+
+// console.log(res3);
+// console.log(arr6);
+
+let res4 = arr6.unshift("kiwi")
+
+// console.log(res4);
+// console.log(arr6);
 
 
-// let fun12 = (v1 , v2) => {
-    
-//     return v1 + v2
-// }
-
-// let val1 = fun12(10, 20)
-
-// console.log(val1);
-
-
-
-// ****************** JavaScript Call Back Function ******************
-
-
-// let fun12 = () => {
-//     console.log("ok");
-// }
-
-// let callBackFun = (fun) => {
-//     fun()
-// }
-
-// callBackFun(fun12)
-
-
-// let fun13 = (v1 , v2) => {
-//     console.log(v1);
-//     console.log(v2);
-// }
-
-// let callBackFun2 = (fun) => {
-//     fun(30, 40)
-// }
-
-// callBackFun2(fun13)
-
-
-// let add = (v1, v2) => {
-//     console.log(v1 + v2);
-// }
-
-// let multiply = (v1, v2) => {
-//     console.log(v1 * v2);
-// }
-
-// let calculate = (val1, val2, fun) => {
-//     fun(val1, val2)
-// }
-
-// calculate(20, 30, add)
-
-// calculate(2, 3, multiply)
 
