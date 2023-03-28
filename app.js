@@ -78,6 +78,18 @@
 //     console.log("ok");
 // }
 
+
+// let fun12 = (v1 , v2) => {
+    
+//     return v1 + v2
+// }
+
+// let val1 = fun12(10, 20)
+
+// console.log(val1);
+
+
+
 // ****************** JavaScript Call Back Function ******************
 
 
@@ -117,4 +129,6 @@
 // }
 
 // calculate(20, 30, add)
+
 // calculate(2, 3, multiply)
+
