@@ -1,46 +1,43 @@
 // ************************************ JavaScript Loops ************************************
 
-// let a = 5
-// alert(a)
+let v2 = 25
+let v3 = 50
 
-// let b = prompt("What is your name", "and age")
-// console.log(b);
+let obj = {
+  name: "name1",
+  age: 50,
+  job: "Good Job",
+  v1: true,
+  fun1: function (fname, lname) {
+    console.log(`${fname} ${lname} `);
+  },
+  nestedObj: {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue",
+  },
+  arr1: [1, 2, 3, 4, 5, 6, 7, 8],
+  val: v2,
+  v3
+};
 
-// let c = confirm("Press a button!")
-// console.log(c);
 
-// let d = prompt("are you ok");
 
-// if ((d == "yes")) {
-//   alert("thank you");
-// } else {
-//     alert("bhack")
-// }
+console.log(obj);
 
-// for (i = 0; i <= 10; i++) {
-//   console.log("ok", "===", i + "<br>");
-// }
+console.log(obj.name);
 
-// let i = 0
+console.log(obj.age);
 
-// while (i <= 10) {
-//     console.log("ok", "====", i);
-//     i++
-// }
+console.log(obj.job);
 
-// let j = 0
+console.log(obj.val);
 
-// do {
-//     console.log("ok" ,"====" ,j);
+console.log(obj.v3);
 
-//     j++
+obj.fun1("jay", "vaghani");
 
-// } while (j <= 10);
+console.log(obj.nestedObj.firstName);
 
-// let k = 0;
-
-// for (k; k <= 10; k++) {
-//   console.log("ok", "===", k);
-// }
-
-// console.log("Last Log", k);
+console.log(obj.arr1[obj.arr1.length - 1]);
