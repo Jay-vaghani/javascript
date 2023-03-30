@@ -1,25 +1,46 @@
-// ************************************ JavaScript Arrays ************************************
+// ************************************ JavaScript Loops ************************************
 
-// let arr1 = [40, 100, 1, 5, 25, 10];
+// let a = 5
+// alert(a)
 
+// let b = prompt("What is your name", "and age")
+// console.log(b);
 
-// let compere = (a, b) => {
-//     return a - b
+// let c = confirm("Press a button!")
+// console.log(c);
+
+// let d = prompt("are you ok");
+
+// if ((d == "yes")) {
+//   alert("thank you");
+// } else {
+//     alert("bhack")
 // }
 
-// console.log(arr1);
+// for (i = 0; i <= 10; i++) {
+//   console.log("ok", "===", i + "<br>");
+// }
 
+// let i = 0
 
-// arr1.sort(compere)
+// while (i <= 10) {
+//     console.log("ok", "====", i);
+//     i++
+// }
 
-// console.log(arr1);
+// let j = 0
 
+// do {
+//     console.log("ok" ,"====" ,j);
 
-// const arr2 = [40, 100, 1, 5, 25, 10];
+//     j++
 
-// console.log(arr2);
+// } while (j <= 10);
 
+// let k = 0;
 
-// arr2[0] = 60
+// for (k; k <= 10; k++) {
+//   console.log("ok", "===", k);
+// }
 
-// console.log(arr2);
+// console.log("Last Log", k);
