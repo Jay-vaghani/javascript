@@ -1,7 +1,7 @@
 // ************************************ JavaScript Loops ************************************
 
-let v2 = 25
-let v3 = 50
+let v2 = 25;
+let v3 = 50;
 
 let obj = {
   name: "name1",
@@ -12,32 +12,22 @@ let obj = {
     console.log(`${fname} ${lname} `);
   },
   nestedObj: {
-    firstName: "John",
+    name: "John",
     lastName: "Doe",
     age: 50,
     eyeColor: "blue",
   },
   arr1: [1, 2, 3, 4, 5, 6, 7, 8],
   val: v2,
-  v3
+  v3,
+
+  // fun2: () => {
+  //   console.log(this.name); //Will Give Empty Result
+  // },
+
+  // fun2: function () {
+  //   console.log(this.name);
+  // },
 };
 
-
-
-console.log(obj);
-
-console.log(obj.name);
-
-console.log(obj.age);
-
-console.log(obj.job);
-
-console.log(obj.val);
-
-console.log(obj.v3);
-
-obj.fun1("jay", "vaghani");
-
-console.log(obj.nestedObj.firstName);
-
-console.log(obj.arr1[obj.arr1.length - 1]);
+console.log(obj.nestedObj.name);
