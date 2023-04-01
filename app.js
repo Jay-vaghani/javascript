@@ -1,58 +1,36 @@
 // ************************************ Array Iteration  ************************************
 
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// The continue statement "Skip" one iteration in the loop.
 
-// for (i = 0; i < arr.length; i++) {
-//   console.log(arr[i], "===", i);
-// }
-
-// let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-// for (i = 0; i < arr2.length; i++) {
-//   console.log(arr2[i], "===", i);
-// }
-
-// let fun1 = () => {
-
-//   for (i = 0; i < arr2.length; i++) {
-//     console.log(arr2[i], "===", i);
+// for (i = 0; i <= 10; i++) {
+//   if (i === 5) {
+//     continue;
 //   }
 
+//   console.log(i);
 // }
 
-// fun1()
+// The break statement "Break" of a loop.
 
-// let mul = (num) => {
-//   for (i = 1; i <= 10; i++) {
-//     console.log(`${num} * ${i} = ${num * i}`);
+// for (i = 0; i <= 10; i++) {
+//   if (i === 5) {
+//     break;
 //   }
-// };
 
-// mul(5)
-
-// let obj = {
-//   type: "Fiat",
-//   model: "500",
-//   color: "white",
-// };
-
-// console.log(obj.type);
-// console.log(obj["type"]);
-
-// for (let i in obj) {
-//   console.log(obj[i]);
+//   console.log(i);
 // }
 
-// let arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let arr4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-
-// for (let i of arr3) {
-//   console.log(arr3[i], "===", i);
+// for (i = 0; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
 // }
 
-// let fun = (element) => {
-//   console.log(element);
-// };
+for (i = 1; i < 5; i++) {
+  for (j = 0; j < i; j++) {
+    document.write("*");
+  }
 
-// arr3.forEach(fun);
-// arr4.forEach(fun);
+  document.write("<br>");
+
+}
